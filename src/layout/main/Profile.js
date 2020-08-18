@@ -33,18 +33,22 @@ export default function Profile() {
                                 <label>Full Name</label>
                                 <input type="text" placeholder='Enter Full Name' className='form-control'/>
                             </div>
-                            <div className="form-group">
-                                <label>Phone Number</label>
-                                <input type="phone number" placeholder='Enter Phone Number' className='form-control'/>
+                            <div style={{display:'flex', justifyContent:"space-between"}}>
+                                <div className="form-group">
+                                    <label>Phone Number</label>
+                                    <input type="phone number" placeholder='Enter Phone Number' className='form-control'/>
+                                </div>
+                                <div className="form-group">
+                                    <label>BVN</label>
+                                    <input type="number" placeholder='Enter BVN' className='form-control'/>
+                                </div>
                             </div>
+
                             <div className="form-group">
                                 <label>Email</label>
                                 <input type="email" placeholder='Enter email' className='form-control'/>
                             </div>
-                            <div className="form-group">
-                                <label>BVN</label>
-                                <input type="number" placeholder='Enter BVN' className='form-control'/>
-                            </div>
+                            
                             <div className="form-group">
                                 <label>Employment Status</label>
                                 <div>
